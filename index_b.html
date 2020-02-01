@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Binai.in</title>
+</head>
+<div id="root" >
+</div>
+
+<body>
+
+
+
+<script type="text/javascript">
+	var imageList = [
+		'B0847351SK',
+		'B08473125W',
+		'B084728DSX',
+		'B08472P2Y5',
+		'B08472P2Y5'
+	];
+
+
+	function generateView(imageId) {
+		return '<a href="https://www.amazon.in/dp/' + imageId + '/ref=as_li_ss_il?ref=myi_title_dp&linkCode=li3&tag=kalkhuria10-21&linkId=dc6ff8f292feccebf63a92fa90bd0a5a&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=' + imageId + '&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=kalkhuria10-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=kalkhuria10-21&language=en_IN&l=li3&o=31&a=' + imageId+ '" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />';
+	}
+
+
+	var  root = document.getElementById("root");
+	var button = "<div class='button'>Buy Now</div>";
+	var title = "<div class='button'>Buy Now</div>";
+
+	imageList.forEach(function(imageId) {
+		var div = document.createElement("div");
+		div.classList.add("my-item");
+		div.innerHTML = generateView(imageId);
+		root.appendChild(div);
+		// console.log();
+	});
+
+</script>
+</body>
+</html> 
