@@ -187,7 +187,14 @@ function renderList(list, title, price) {
 function App() {
   return (
     <div className="App">
-      <div className="Header"> Kalkhuria Readymade</div>
+      <div className="Header"> 
+        <div className="pic"><img src="/pic.png"/></div>
+        <div className="desc">
+          <div> Kalkhuria </div>
+          <div>Readymade</div>
+        </div>
+        
+      </div>
       {renderList(imageList.womenHalf, "Women Half Sweater", 549)}
 
       <div style={{height:"100px"}}/>

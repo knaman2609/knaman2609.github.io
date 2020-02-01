@@ -6,6 +6,7 @@
 
 html, body {
   background: #ebfaff;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App {
@@ -50,12 +51,29 @@ html, body {
   cursor: pointer;
 }
 
+.pic {
+  width: 150px;
+  vertical-align: middle;
+  display: inline-block;
+  height:150px;
+  overflow: hidden;
+  border-radius: 150px;
+}
+
+.desc {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 10px;
+  color: #9fa367;
+}
+
 img {
   max-width: 100%;
   max-height:  100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
+
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -73,6 +91,7 @@ img {
 }
 
 .button {
+  font-size: 14px;
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -82,13 +101,22 @@ img {
   text-align: center;
   font-weight: bold;
   color: #ffffff;
+  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
 }
+
+.button:hover { background-position: right center;}
 
 .App-link {
   color: #61dafb;
 }
 
 @media (max-width: 600px) {
+  .pic {
+    width: 120px;
+    height: 120px;
+  }
+
+
   .App {
     width: 100%;
   }
