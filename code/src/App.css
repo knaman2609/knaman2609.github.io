@@ -38,6 +38,7 @@ html, body {
 }
 
 .list-item {
+  overflow: hidden;
   width: 200px;
   height: 350px;
   padding-top: 10px;

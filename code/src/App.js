@@ -166,7 +166,10 @@ function renderImage(image, price) {
     onClick = {function( ) { openAmazon(image) }} >
       <img src={image.url}/>
 
-      <div className="button"> Buy Now - Rs. {price} </div>
+      <div className="button"> 
+        Buy Now - Rs. {price} 
+        <div style={{fontSize: "10px"}}> + Shipping Charges </div>
+      </div>
   </div>)
 }
 
