@@ -198,10 +198,10 @@ function App() {
         </div>
         
       </div>
-      {renderList(imageList.womenHalf, "Women Half Sweater", 699)}
+      {renderList(imageList.womenHalf, "Women Half Sweater", 649)}
 
       <div style={{height:"100px"}}/>
-      {renderList(imageList.menHalf, "Men Half Sweater", 699)}   
+      {renderList(imageList.menHalf, "Men Half Sweater", 649)}   
 
       <div style={{height:"100px"}}/>
       {renderList(imageList.womenFull, "Women Full Sweater", 749)}  
