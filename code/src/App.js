@@ -230,7 +230,7 @@ function App() {
       {renderList(imageList.menHalf, "Men Half Sweater", 649)}   
 
       <div style={{height:"100px"}}/>
-      {renderList(imageList.womenFull, "Women Full Sweater", 749)}  
+      {renderList(imageList.womenFull, "Women Full Sweater", 849)}  
 
       <div style={{height:"100px"}}/>
       {renderList(imageList.kids, "Kids", 399)}
