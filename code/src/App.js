@@ -192,9 +192,8 @@ function renderImage(image, price) {
     onClick = {function( ) { openAmazon(image) }} >
       <img src={image.url}/>
 
-      <div className="button"> 
-        Buy Now - Rs. {price} 
-        <div style={{fontSize: "10px"}}> + Shipping Charges </div>
+      <div className="list-item--bottom"> 
+        Rs.{price}  + Shipping Charges 
       </div>
   </div>)
 }
@@ -213,9 +212,16 @@ function renderList(list, title, price) {
 
 }
 
-function App() {
+function getHero() {
   return (
-    <div className="App">
+    <div className="Hero">
+
+    </div>
+  )
+}
+
+function getHeader() {
+   return (
       <div className="Header"> 
         <div className="pic"><img src="/pic.png"/></div>
         <div className="desc">
@@ -224,16 +230,26 @@ function App() {
         </div>
         
       </div>
-      {renderList(imageList.womenHalf, "Women Half Sweater", 649)}
+  )
+}
 
-      <div style={{height:"100px"}}/>
-      {renderList(imageList.menHalf, "Men Half Sweater", 649)}   
+function App() {
+  return (
+    <div className="App">
+      {getHeader()}
+      {getHero()}
+      <div className="App-container">
+        {renderList(imageList.womenHalf, "Women Half Sweater", 649)}
 
-      <div style={{height:"100px"}}/>
-      {renderList(imageList.womenFull, "Women Full Sweater", 849)}  
+        <div style={{height:"100px"}}/>
+        {renderList(imageList.menHalf, "Men Half Sweater", 649)}   
 
-      <div style={{height:"100px"}}/>
-      {renderList(imageList.kids, "Kids", 399)}
+        <div style={{height:"100px"}}/>
+        {renderList(imageList.womenFull, "Women Full Sweater", 849)}  
+
+        <div style={{height:"100px"}}/>
+        {renderList(imageList.kids, "Kids", 399)}
+      </div>
     </div>
   );
 }

@@ -5,11 +5,15 @@
 }
 
 html, body {
-  background: #ebfaff;
   font-family: 'Open Sans', sans-serif;
+  color: #333333;
 }
 
 .App {
+  background: #ffffff;
+}
+
+.App-container {
   width: 1000px;
   position: relative;
   margin: 0 auto;
@@ -17,13 +21,21 @@ html, body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  background: #ffffff;
 }
 
 .Header {
-  font-size: 48px;
-  margin-bottom: 50px;
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
   font-weight: bold;
+}
+
+.Hero {
+ background-image: url("https://images.unsplash.com/photo-1549057049-7bee8a1c41f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+ height: 400px ;
 }
 
 .App-logo {
@@ -32,20 +44,18 @@ html, body {
 }
 
 .list-header {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .list-item {
   overflow: hidden;
-  width: 200px;
+  width: 280px;
   height: 350px;
   padding-top: 10px;
-  border:  2px solid #cccccc ;
-  border-radius: 5px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 40px;
   margin-bottom: 10px;
   position: relative;
   padding-bottom: 50px;
@@ -53,10 +63,10 @@ html, body {
 }
 
 .pic {
-  width: 150px;
+  width: 100px;
   vertical-align: middle;
   display: inline-block;
-  height:150px;
+  height:100px;
   overflow: hidden;
   border-radius: 150px;
 }
@@ -65,12 +75,17 @@ html, body {
   vertical-align: middle;
   display: inline-block;
   margin-left: 10px;
-  color: #9fa367;
 }
 
 img {
   max-width: 100%;
   max-height:  100%;
+}
+
+.list-item img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -91,18 +106,9 @@ img {
   color: white;
 }
 
-.button {
-  font-size: 14px;
-  position: absolute;
-  bottom: 0%;
-  left: 0%;
-  width: 100%;
-  background: #f3a947;
-  padding: 10px;
+.list-item--bottom {
   text-align: center;
-  font-weight: bold;
-  color: #ffffff;
-  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+  font-size: 14px;
 }
 
 .button:hover { background-position: right center;}
