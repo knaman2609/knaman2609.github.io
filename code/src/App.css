@@ -34,8 +34,9 @@ html, body {
 }
 
 .Hero {
- background-image: url("https://images.unsplash.com/photo-1549057049-7bee8a1c41f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
- height: 400px ;
+ background-image: url("https://raw.githubusercontent.com/knaman2609/knaman2609.github.io/master/cover.jpg");
+ height: 500px ;
+ background-size: cover;
 }
 
 .App-logo {
