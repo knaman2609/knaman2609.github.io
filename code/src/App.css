@@ -137,10 +137,14 @@ img {
 
     text-align: left;
   }
-}
 
-@media (max-width: 600px) {
   .Header {
-    font-size: 30px;
+      font-size: 30px;
+      width: 100%;
+  }
+
+  .App-container {
+      width: 100%;
   }
 }
+
