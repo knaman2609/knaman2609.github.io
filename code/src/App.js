@@ -131,9 +131,10 @@ function renderImage(image, price) {
       <img src={image.url}/>
 
       <div className="list-item--bottom"> 
-        Rs.{price}  + Shipping Charges 
+          Buy now
       </div>
   </div>)
+//    Rs.{price}  + Shipping Charges 
 }
 
 function renderList(list, title, price) {
@@ -182,13 +183,13 @@ function App() {
       <div className="App-container">
         {renderList(imageList.womenHalf, "Women Half Sweater", 649)}
 
-        <div style={{height:"100px"}}/>
+        <div style={{height:"0px"}}/>
         {renderList(imageList.menHalf, "Men Half Sweater", 649)}   
 
-        <div style={{height:"100px"}}/>
+        <div style={{height:"0px"}}/>
         {renderList(imageList.womenFull, "Women Full Sweater", 849)}  
 
-        <div style={{height:"100px"}}/>
+        <div style={{height:"0px"}}/>
         {renderList(imageList.kids, "Kids", 399)}
 
       </div>
