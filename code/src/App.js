@@ -156,6 +156,9 @@ function renderList(list, title, price) {
 function getHero() {
   return (
     <div className="Hero">
+          <div className = "Hero-text">
+          Hero text
+          </div>
 
     </div>
   )

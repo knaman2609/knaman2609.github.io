@@ -56,7 +56,7 @@ html, body {
 }
 
 .Hero {
- background-image: url("/p1.jpeg");
+ background-image: url("/p2.jpeg");
  height: 700px ;
  background-size: cover;
 }
@@ -81,7 +81,7 @@ html, body {
   width: 400px;
   padding-top: 10px;
   display: inline-block;
-  margin-right: 0px;
+  margin-right: 40px;
   margin-bottom: 40px;
   position: relative;
   cursor: pointer;
@@ -137,6 +137,7 @@ img {
 
   .list-item {
       width: 300px;
+      margin-right: 0px;
   }
 
   .list-header{
