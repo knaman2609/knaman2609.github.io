@@ -162,14 +162,15 @@ function getHero() {
 
 function getHeader() {
    return (
+    <div className="Header-container"> 
       <div className="Header"> 
         <div className="pic"><img src="/pic.png"/></div>
         <div className="desc">
           <div> Kalkhuria </div>
           <div>Readymade</div>
         </div>
-        
       </div>
+    </div>
   )
 }
 
@@ -189,6 +190,11 @@ function App() {
 
         <div style={{height:"100px"}}/>
         {renderList(imageList.kids, "Kids", 399)}
+
+      </div>
+
+          <div class="footer">
+          Kalkhuria Readymade  @2020
       </div>
     </div>
   );
