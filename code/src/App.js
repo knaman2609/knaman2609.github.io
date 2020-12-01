@@ -117,11 +117,12 @@ var imageList =
 
 
 function openAmazon(image) {
-  if (image.affLink)
-  window.open(image.affLink);
-  else  
-  window.open("https://www.amazon.in/dp/" + image.id);
-  // console.log(image);
+    var url = "https://www.amazon.in/dp/" + image.id;
+
+    if (image.affLink)
+        window.open(image.affLink);
+    else
+        window.gtag_report_conversion (url);
 }
 
 function renderImage(image, price) {
