@@ -7,45 +7,51 @@ var imageList =
   womenHalf: [
    {
        id: 'B08NHBQFC8',
-      url: 'https://images-na.ssl-images-amazon.com/images/I/71XeBgPdj1L._UY879_.jpg',
-       affLink: "https://www.amazon.in/dp/B08NHBQFC8?ref=myi_title_dp",
+       url: 'https://images-na.ssl-images-amazon.com/images/I/61djMnWqsrL._UY879_.jpg',
+       affLink: "https://www.amazon.in/dp/B08R9ZKY7F?ref=myi_title_dp",
     },
 
      {
          id: 'B08NHD1HPT',
-         url: 'https://images-na.ssl-images-amazon.com/images/I/71XlC0ZcnmL._UY879_.jpg',
-         affLink: "https://www.amazon.in/dp/B08NHD1HPT?ref=myi_title_dp",
+         url: 'https://m.media-amazon.com/images/I/71YaZWymrdL._SY879._SX._UX._SY._UY_.jpg',
+         affLink: "https://www.amazon.in/dp/B08RB2FZM3?ref=myi_title_dp&th=1",
     },
 
      {
          id: 'B08NHB9DY7',
-         url: 'https://images-na.ssl-images-amazon.com/images/I/71r2VivVmrL._UY879_.jpg',
-         affLink: "https://www.amazon.in/dp/B08NHB9DY7?ref=myi_title_dp",
+         url: 'https://m.media-amazon.com/images/I/61Q--Pk4ICL._SY879._SX._UX._SY._UY_.jpg',
+         affLink: "https://www.amazon.in/dp/B08RB1QXCL?ref=myi_title_dp&th=1",
     },
 
      {
          id: 'B08NHBR7GF',
-         url: 'https://images-na.ssl-images-amazon.com/images/I/71tnlmwcuzL._UY879_.jpg',
-         affLink: "https://www.amazon.in/dp/B08NHBR7GF?ref=myi_title_dp",
+         url: 'https://m.media-amazon.com/images/I/61LNiBMR8RL._SY879._SX._UX._SY._UY_.jpg',
+         affLink: "https://www.amazon.in/dp/B08RB1VJRL?ref=myi_title_dp&th=1",
     },
 
      {
          id: 'B08LVDWCCW',
-         url: 'https://images-na.ssl-images-amazon.com/images/I/71LQlZRFqVL._UY879_.jpg',
-         affLink: "https://www.amazon.in/dp/B08LVDWCCW?ref=myi_title_dp"
+         url: 'https://images-na.ssl-images-amazon.com/images/I/51I802zO2RL._UY879_.jpg',
+         affLink: "https://www.amazon.in/dp/B08NHCR8CR?ref=myi_title_dp"
     },
 
 
     {
         id: 'B08LVL6DMM',
-        url: 'https://images-na.ssl-images-amazon.com/images/I/71cVKCtgOrL._UY879_.jpg',
-        affLink: "https://www.amazon.in/dp/B08LVL6DMM?ref=myi_title_dp"
+        url: 'https://m.media-amazon.com/images/I/61nZsa1YZML._SY879._SX._UX._SY._UY_.jpg',
+        affLink: "https://www.amazon.in/dp/B08NHDMVQK?ref=myi_title_dp&th=1"
     },
     {
         id: 'B08LVK1XK3',
-        url: 'https://images-na.ssl-images-amazon.com/images/I/61mqdHbdX0L._UY879_.jpg',
-        affLink: "https://www.amazon.in/dp/B08LVK1XK3?ref=myi_title_dp"
-    }
+        url: 'https://m.media-amazon.com/images/I/613AI7RpNkL._SY879._SX._UX._SY._UY_.jpg',
+        affLink: "https://www.amazon.in/dp/B08RB2BKZH?ref=myi_title_dp&th=1"
+    },
+
+      {
+          id: 'B08LVK1XK3',
+          url: 'https://m.media-amazon.com/images/I/81YStgxrj9L._SY879._SX._UX._SY._UY_.jpg',
+          affLink: "https://www.amazon.in/dp/B08RB1YKF5?ref=myi_title_dp&th=1"
+      }
 
   ],
 
@@ -94,22 +100,22 @@ var imageList =
   ,
 
   kids: [
-    {
-        id: 'B08LCKN2Z6',
-        url: 'https://images-na.ssl-images-amazon.com/images/I/61MKdDoXCHL._SY879_.jpg',
-        affLink: "https://www.amazon.in/dp/B08LCKN2Z6?ref=myi_title_dp"
-    },
+    // {
+    //     id: 'B08LCKN2Z6',
+    //     url: 'https://images-na.ssl-images-amazon.com/images/I/61MKdDoXCHL._SY879_.jpg',
+    //     affLink: "https://www.amazon.in/dp/B08LCKN2Z6?ref=myi_title_dp"
+    // },
 
-    {
-      id: 'B083J3299R',
-      url: 'https://images-na.ssl-images-amazon.com/images/I/510qeOdeaQL._SY879_.jpg',
-      affLink: "https://amzn.to/2udWICj"
-    } ,
-      {
-          id: 'B08LCJK7PV',
-          url: 'https://images-na.ssl-images-amazon.com/images/I/61Ehd1lmqRL._SY879_.jpg',
-          affLink: "https://www.amazon.in/dp/B08LCJK7PV?ref=myi_title_dp"
-      }
+    // {
+    //   id: 'B083J3299R',
+    //   url: 'https://images-na.ssl-images-amazon.com/images/I/510qeOdeaQL._SY879_.jpg',
+    //   affLink: "https://amzn.to/2udWICj"
+    // } ,
+    //   {
+    //       id: 'B08LCJK7PV',
+    //       url: 'https://images-na.ssl-images-amazon.com/images/I/61Ehd1lmqRL._SY879_.jpg',
+    //       affLink: "https://www.amazon.in/dp/B08LCJK7PV?ref=myi_title_dp"
+    //   }
 
   ]
 
@@ -172,6 +178,7 @@ function getHeader() {
         <div className="desc">
           <div> Kalkhuria </div>
           <div>Readymade</div>
+           <div> 9760847258</div>
         </div>
       </div>
     </div>
