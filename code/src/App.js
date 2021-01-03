@@ -51,7 +51,38 @@ var imageList =
           id: 'B08LVK1XK3',
           url: 'https://m.media-amazon.com/images/I/81YStgxrj9L._SY879._SX._UX._SY._UY_.jpg',
           affLink: "https://www.amazon.in/dp/B08RB1YKF5?ref=myi_title_dp&th=1"
+      },
+
+      {
+          id: 'B08LVK1XK3',
+          url: 'https://m.media-amazon.com/images/I/61TyRi6u7oL._SY879._SX._UX._SY._UY_.jpg',
+          affLink: "https://www.amazon.in/dp/B08RXZKJP4?ref=myi_title_dp&th=1"
+      },
+
+      {
+          id: 'B08LVK1XK3',
+          url: 'https://m.media-amazon.com/images/I/61xSVnzux5L._SY879._SX._UX._SY._UY_.jpg',
+          affLink: "https://www.amazon.in/dp/B08RXYT1YF?ref=myi_title_dp&th=1"
+      },
+
+      {
+          id: 'B08LVK1XK3',
+          url: 'https://m.media-amazon.com/images/I/71xW+Bl6OfL._SY879._SX._UX._SY._UY_.jpg',
+          affLink: "https://www.amazon.in/dp/B08RPBXZLZ?ref=myi_title_dp&th=1"
+      },
+
+      {
+          id: 'B08LVK1XK3',
+          url: 'https://m.media-amazon.com/images/I/61NqhdgD1XL._SY879._SX._UX._SY._UY_.jpg',
+          affLink: "https://www.amazon.in/dp/B08RP8F1TS?ref=myi_title_dp&th=1"
+      },
+
+      {
+          id: 'B08LVK1XK3',
+          url: 'https://m.media-amazon.com/images/I/61yKwGs6-aL._SY879._SX._UX._SY._UY_.jpg',
+          affLink: "https://www.amazon.in/dp/B08RPCY7XT?ref=myi_title_dp&th=1"
       }
+
 
   ],
 
@@ -178,7 +209,8 @@ function getHeader() {
         <div className="desc">
           <div> Kalkhuria </div>
           <div>Readymade</div>
-           <div> 9760847258</div>
+
+           <div className="phn">📞  9760847258</div>
         </div>
       </div>
     </div>
